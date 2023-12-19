@@ -51,12 +51,15 @@ private final String url = "jdbc:postgresql://localhost:5432/postgres";
 	            executeUpdateQuery(insertProductSQL);
 
 	            // Now, you can insert into the "stock" table referencing prodid 'p1'
-	           String insertStockSQL = "INSERT INTO stock (prodid, depid, quantity) VALUES ('p1', 'd100', 100);";
+	           String insertStockSQL = "INSERT INTO stock (prodid, depid, quantity) VALUES ('p100', 'd2', 50);";
 	            executeUpdateQuery(insertStockSQL);
 
 	            // Activity 6: Adding a new depot (d100, Chicago, 100) in Depot and (p1, d100, 100) in Stock
 	            String insertDepotSQL = "INSERT INTO depot (depid, addr, volume) VALUES ('d100', 'chicago', 100);";
 	            executeUpdateQuery(insertDepotSQL);
+
+			 String insertSQL = "INSERT INTO stock (prodid, depid, quantity) VALUES ('p1', 'd100', 100);";
+	            executeUpdateQuery(insertSQL);
 	            
 
 	            conn.commit(); // Commit all changes
