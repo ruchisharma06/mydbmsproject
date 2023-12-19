@@ -40,7 +40,7 @@ private final String url = "jdbc:postgresql://localhost:5432/postgres";
 
 	         // Activity 4: Changing depot d1 name to dd1 in Depot and Stock
 	            String updateDepotSQL = "UPDATE depot SET depid = 'dd1' WHERE depid = 'd1';";
-	            executeUpdateQuery(updateDepotSQL);*/
+	            executeUpdateQuery(updateDepotSQL);
 	        
 
 	            conn.commit(); // Commit the changes
