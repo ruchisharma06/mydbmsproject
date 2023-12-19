@@ -49,10 +49,10 @@ private final String url = "jdbc:postgresql://localhost:5432/postgres";
 	            
 	         // Activity 3: Changing product p1 name to pp1 in Product and Stock
 	            
-	          String updateProductSQL = "UPDATE product SET pname = 'pp1' WHERE prodid = 'p1';";
+	          String updateProductSQL = "UPDATE product SET prodid = 'pp1' WHERE prodid = 'p1';";
 	            executeUpdateQuery(updateProductSQL);
 
-	            String updateStockSQL = "UPDATE stock SET prodid = 'pp1' WHERE prodid = 'p1';";
+	            String updateStockSQL = "UPDATE depot SET depid = 'dd1' WHERE depid = 'd1';";
 	            executeUpdateQuery(updateStockSQL);
 
 	            conn.commit(); // Commit the changes
