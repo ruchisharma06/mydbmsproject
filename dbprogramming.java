@@ -32,7 +32,7 @@ private final String url = "jdbc:postgresql://localhost:5432/postgres";
 	            executeUpdateQuery(deleteProductSQL);
 
 
-	//I have update cascade query on my database. so, I am updating in one table and it is getting updated in other one. I have updated the query.
+	//I have update cascade query on my database. so, I am updating in one table and it is getting updated in other one. I have updated the query. 
 			
 	            // Activity 3: Changing product p1 name to pp1 in Product and Stock
 	            String updateProductSQL = "UPDATE product SET pname = 'pp1' WHERE prodid = 'p1';";
