@@ -20,10 +20,15 @@ pwd: The password for connecting to the PostgreSQL database.
 
 # Activities
 Activity 1: Deleting product p1 from Product and Stock
+
 Activity 2: Deleting depot d1 from Depot and Stock
+
 Activity 3: Changing product p1 name to pp1 in Product and Stock
+
 Activity 4: Changing depot d1 name to dd1 in Depot and Stock
+
 Activity 5: Adding a product (p100, cd, 5) in Product and (p100, d2, 50) in Stock
+
 Activity 6: Adding a new depot (d100, Chicago, 100) in Depot and (p1, d100, 100) in Stock
 
 # Execution
