@@ -15,7 +15,9 @@ JDBC driver for PostgreSQL (typically included in the project or can be added se
 Make sure to update the following parameters in the dbprogramming class according to your PostgreSQL database configuration:
 
 url: The JDBC URL for connecting to the PostgreSQL database.
+
 user: The username for connecting to the PostgreSQL database.
+
 pwd: The password for connecting to the PostgreSQL database.
 
 # Activities
